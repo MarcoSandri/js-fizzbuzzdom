@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #083b4c;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    margin: 2rem;
+}
+
+#container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
